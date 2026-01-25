@@ -1,0 +1,62 @@
+button {
+    background-color: #fff;
+    color: #1a1a1a;
+    border-right-color: #A67C52;
+    border-left-color: #A67C52;
+}
+
+button:hover {
+    background-color: #b7b7b7;
+}
+
+button:active {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.toolbar-btn {
+    height: 50px;
+    background-color: #fff;
+    color: #1a1a1a;
+    border-right-color: #A67C52;
+    border-left-color: #A67C52;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.toolbar-btn:hover {
+    background-color: #b7b7b7;
+}
+
+.toolbar-btn:active {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+.one-button {
+    width: 40px;
+    height: 50px;
+}
+
+.text-tool-btn {
+    font-weight: bold;
+}
+
+.shape-tool-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* important */
+}
+
+.shape-tool-btn img {
+    width: 20px;
+    height: 10px;
+    display: block
+}
