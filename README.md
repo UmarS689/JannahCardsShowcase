@@ -20,12 +20,23 @@ The features I included are all skills that employers consistently look for. Ult
 - More formats for saving canvas files.
 - External file storage system for user uploaded images. Potentially AWS
 - Hosting (probably DigitalOcean)
-- Payment system (presumably by API)
+- Payment system (potentially PayPal)
+- Export a library of graphics for commercial use.
+
+
+## New Features 20/02/2026
+- 'Cards' page has fully functioning cards that users can click on for it to overwrite their existing canva designs. 
+- Popularity feature added to keep track of most popular cards (based on how many people have used it to override their current designs).
+- Home page updated to have a working existing canvas design for users to have a taster of the canvas UI. Aesthetics of the landing page also improved. 
+- New card designs added as templates.
+- 'Cards' page has a filter based on category and a sorting filter based on dates and popularity.
+- Personalised wedding website CTA added to the footer for users to register interest.
+
 
 ## Features
 
 - Drag-and-drop card editor  
-- Add images, text, borders, and decorative elements  
+- Addition of images, text, borders, and decorative elements  
 - Custom fonts and calligraphy  
 - Real-time canvas editing with Fabric.js  
 - Export final designs to pdf and submit to gallery
@@ -37,10 +48,34 @@ The features I included are all skills that employers consistently look for. Ult
 - Custom element classes for unique elements with functioning tailored toolbars for each element
 - Docker for containerisation and modern deployment workflows.
 - GitHub Actions for  CI/CD pipelines
-- Now introducing guest list function for you to decide who to invite to the wedding!
+- Guest list function for users to keep track of who to invite to the wedding.
 ---
 
+
 ## Screenshots
+
+### Landing Page
+![Landing Page - Hero](public/landing-hero.png)
+Landing page with the interactive hero.
+
+![Landing Page - Populars](public/landing-popular.png)
+Landing page showing the three most popular design.
+
+### Cards Page
+![Card Page - Unfiltered](public/cards-unfiltered.png)
+Card page without any filters added.
+
+![Card Page - Arches Only](public/cards-arches.png)
+Card page with Arches category.
+
+![Card Page - Sorted](public/cards-sorted.png)
+Card page sorted by popularity.
+
+![Card Page - Warning](public/cards-overide.png)
+Clicking on a design warns the user that their existing design will be overridden.
+
+![Card/Canvas Page - Overridden](public/canvas-overridden.png)
+Existing canvas overridden with template.
 
 ### Canvas Designer
 ![Designer Page - Light](public/canvas-light.png)
@@ -89,6 +124,11 @@ Functioning registration page.
 Contact page - light version.
 ![Contact Us Page - Dark](public/contact-dark.png)
 Contact page - dark version.
+
+### My Account
+![Account Page - Overview](public/myAccount-overview.png)
+
+![Account Page - Interactive](public/myAccount-interactive.png)
 
 ---
 ## Tech Stack
